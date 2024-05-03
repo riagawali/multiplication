@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* General table styles */
+      .tbl {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      .tbl th,
+      .tbl td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+      }
+
+      /* Styling for specific tables */
+      #tbl1 {
+        background-color: #f0f8ff; /* Light blue background */
+      }
+
+      #tbl2 {
+        background-color: #f0e68c; /* Khaki background */
+      }
+
+      #tbl3 {
+        background-color: #d3d3d3; /* Light gray background */
+      }
+
+      /* Make the tables bigger */
+      .tbl {
+        width: 100%;
+        max-width: 500px; /* Adjust as needed */
+        margin: 20px auto; /* Center the tables */
+      }
+
+      .tbl th,
+      .tbl td {
+        padding: 10px; /* Increase cell padding */
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" placeholder="?#?#?" id="inp1" />
+    <input type="text" placeholder="?#?#?" id="inp2" />
+    <button id="btn">Generate</button>
+    <center>
+      <h3>Table1</h3>
+      <table border="1px" class="tbl" id="tbl1">
+        <tbody></tbody>
+      </table>
+    </center>
+    <hr />
+    <center>
+      <h3>Table2</h3>
+      <table border="1px" class="tbl" id="tbl2">
+        <tbody></tbody>
+      </table>
+    </center>
+    <hr />
+    <center>
+      <h3>Table3</h3>
+      <table border="1px" class="tbl" id="tbl3">
+        <tbody></tbody>
+      </table>
+    </center>
+    <script src="script.js"></script>
+  </body>
+</html>
